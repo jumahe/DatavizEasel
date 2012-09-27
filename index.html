@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>// Canvas Data Viz</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <!-- JQUERY -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        
+        <!-- EASEL JS imports -->
+        <script type="text/javascript" src="js/easeljs/utils/UID.js"></script>
+        <script type="text/javascript" src="js/easeljs/geom/Matrix2D.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/DisplayObject.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/Container.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/Shape.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/Stage.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/Graphics.js"></script>
+        <script type="text/javascript" src="js/easeljs/events/MouseEvent.js"></script>
+        <script type="text/javascript" src="js/easeljs/filters/Filter.js"></script>
+        <script type="text/javascript" src="js/easeljs/filters/BoxBlurFilter.js"></script>
+        <script type="text/javascript" src="js/easeljs/geom/Point.js"></script>
+        <script type="text/javascript" src="js/easeljs/geom/Rectangle.js"></script>
+        <script type="text/javascript" src="js/easeljs/utils/Ticker.js"></script>
+        <script type="text/javascript" src="js/easeljs/display/Text.js"></script>
+        
+        <!-- TWEEN JS imports -->
+        <script type="text/javascript" src="js/tweenjs/Ease.js"></script>
+        <script type="text/javascript" src="js/tweenjs/Tween.js"></script>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/global.css" />
+    </head>
+    
+    <body>
+        
+        <!-- CANVAS WRAPPER & NODE -->
+        <div id="wrapper"><canvas id="cstage">canvas area</canvas></div>
+        
+        <!-- APP JS -->
+        <script type="text/javascript" src="js/datas.js"></script>
+        <script type="text/javascript" src="js/application.js"></script>
+        <script type="text/javascript">$(document).ready( function($){ initApp("cstage"); });</script>
+        
+    </body>
+</html>
